@@ -85,10 +85,10 @@ def readme():
 
 
 setup(
-    name='connexion',
+    name='lcdp-connexion',
     packages=find_packages(),
     version=version,
-    description='Connexion - API first applications with OpenAPI/Swagger and Flask',
+    description='LCDP Connexion - API first applications with OpenAPI/Swagger and Flask',
     long_description=readme(),
     author='Zalando SE',
     url='https://github.com/zalando/connexion',
