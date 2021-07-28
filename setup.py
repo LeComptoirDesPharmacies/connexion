@@ -17,7 +17,7 @@ def read_version(package):
                 return line.split()[-1].strip().strip("'")
 
 
-version = read_version('connexion')
+version = read_version('lcdp-connexion')
 
 install_requires = [
     'clickclick>=1.2,<21',
